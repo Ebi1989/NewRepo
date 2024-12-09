@@ -42,6 +42,7 @@ stock.EventChanged += Stock_EventChanged;
 stock.Price = 100m;
 stock.Price = 105m;
 stock.Price = 110m;
+stock.Price = 115m;
 
 static void Stock_EventChanged(object? sender, EventMain.MessageEventArgs e)
 {
